@@ -53,7 +53,7 @@ Tracks item-wise distribution and sales across various Unit Run Canteens (URCs).
 ---
 
 ## 🔍 Key SQL Analytical Queries Included
-The project's SQL script (`CSD_Inventory_Analytics.sql`) answers critical business questions:
+The project's SQL script (`CSD_Analysis_SQL.sql`) answers critical business questions:
 1. **Dynamic Case-Pack Conversion:** Calculates precise total equivalent units using parent-child table joins (`(Sale_CS * CASE_PACK) + sale_UN`).
 2. **Stock Fill Rate & Performance:** Links depot stock levels with URC demand.
 3. **Inventory Alerts:** Filters `OUT OF STOCK` and `LOW STOCK - REORDER` items to prevent supply chain bottlenecks.
@@ -67,4 +67,4 @@ The project's SQL script (`CSD_Inventory_Analytics.sql`) answers critical busine
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/CSD-Depot-Inventory-Analytics.git](https://github.com/your-username/CSD-Depot-Inventory-Analytics.git)
+   git clone https://github.com/Achalvlog/CSD-Sales-Inventory-Analytics-Dashboard.git
